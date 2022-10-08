@@ -1,0 +1,52 @@
+    .userDataWrapper{
+        gap: 20px;
+        background-color: transparent;
+        border: 2px solid #186BAC;
+        padding: 10px;
+        border-radius: 35px;
+        .weight{
+            display: grid;
+            grid-template-columns: 0.3fr 1fr;
+            padding: 20px;
+            align-items: center;
+            gap: 10px;
+            .iconData{
+                width: 65px;
+            }
+            .wieghtIcon{
+                width: 100%;
+            }
+            .dataUser{
+                color: #fff;
+                font-size: 18px;
+            }
+            .inputUser{
+                padding: 15px;
+                border-radius: 35px;
+                border: none;
+                font-size: 20px;
+                font-weight: 100;
+            }
+        }
+        .btnWrapper{
+            text-align: end;
+            padding-right: 20px;
+            .calculatorIcon{
+                width: 20%;
+            }
+            .btnResult{
+                border-radius: 35px;
+                padding: 7px 25px;
+                border: none;
+                background-color: #FFB229;
+                color: #fff;
+                font-weight: 100;
+                cursor: pointer;
+                transition: 0.7s;
+                font-size: 15px;
+            }
+            .btnResult:hover{
+                scale: (1.1);
+            }
+        }
+    }

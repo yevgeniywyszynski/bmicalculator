@@ -1,0 +1,30 @@
+.pageWrapper{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    .calculatorWrapper{
+        width: 550px;
+        height: 600px;
+        background-color: #fff;
+        margin-top: 30px;
+        background-color: rgba(0, 0, 0, 0.2);
+        padding: 30px;
+        .calculator{
+            background-color: #186BAC;
+            padding: 10px;
+            border-radius: 35px;
+            .title{
+                font-size: 35px;
+                text-align: center;
+                color: #fff;
+                font-weight: 100;
+            }
+        }
+    }
+}
+
+@media(max-width: 600px){
+    .pageWrapper{
+        padding: 250px;
+    }
+}

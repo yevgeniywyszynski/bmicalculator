@@ -1,0 +1,30 @@
+.maleWrapper{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    .sexActive{
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+    }
+
+    .sexNoActive{
+        opacity: 0.6;
+        width: 100px;
+        height: 100px;
+        transition: 0.7s;
+        cursor: pointer;
+    }
+    .sexNoActive:hover{
+        scale: (1.1);
+    }
+
+    .iconMan{
+        width: 100%;
+    }
+    .iconWoman{
+        width: 100%;
+    }
+}
